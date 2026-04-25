@@ -1,5 +1,12 @@
+def add(a, b):
+    return a + b
 
-a =2 
-b= 4
-c= a+d 
-print(c)
+def subtract(a, b):
+    return a - b
+
+# Intentional ERROR here!
+result = add(10, 20)
+print("Result:", result)
+
+# This will cause error
+print(undefined_variable)
